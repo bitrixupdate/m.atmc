@@ -1,0 +1,303 @@
+/*Module gbxtp.atmc*/
+/*Hermitage*/
+body #bx-panel #bx-panel-top {
+    background: #222425 !important;
+    padding-bottom: 60px !important;
+    height: auto !important;
+}
+
+body #bx-panel #bx-panel-tabs {
+    background: none !important;
+}
+
+body #bx-panel #bx-panel-site-toolbar {
+    background: #222425 !important;
+}
+
+/*Режим правки*/
+body #bx-panel .bx-panel-toggle-off #bx-panel-toggle-indicator {
+    background: #ac21ce !important;
+    border-radius: 15px !important;
+    border: 1px solid #cbd5d8 !important;
+}
+body #bx-panel .bx-panel-toggle-off #bx-panel-toggle-caption-mode-off
+{
+    color: #ac21ce !important;
+}
+body #bx-panel .bx-panel-toggle-on #bx-panel-toggle-indicator {
+    background: #52a13d !important;
+    border-radius: 15px !important;
+    border: 1px solid #cbd5d8 !important;
+}
+body #bx-panel .bx-panel-toggle-on #bx-panel-toggle-caption-mode-on
+{
+    color: #52a13d !important;
+}
+/*Режим правки*/
+
+/*Кнопка Сайт*/
+body #bx-panel #bx-panel-view-tab {
+    background: none !important;
+}
+body #bx-panel #bx-panel-view-tab span {
+    background: none !important;
+    border: 1px solid #cbd5d8 !important;
+    border-radius: 4px !important;
+    padding: 0px 20px !important;
+    text-shadow: none;
+    color: white !important;
+}
+/*Кнопка Сайт*/
+
+/*Кнопка Администрирование*/
+body #bx-panel #bx-panel-admin-tab {
+    background: none !important;
+    margin-right: 12px !important;
+}
+body #bx-panel #bx-panel-admin-tab span {
+    background: none !important;
+    border: 1px solid #cbd5d8 !important;
+    border-radius: 4px !important;
+    padding: 0px 20px !important;
+    text-shadow: none;
+    color: white !important;
+}
+body #bx-panel #bx-panel-admin-tab:hover {
+    background: none !important;
+}
+body #bx-panel #bx-panel-admin-tab:hover span {
+    background: none !important;
+}
+/*Кнопка Администрирование*/
+
+/*Элемент Режим правки*/
+body #bx-panel #bx-panel-toggle-icon-overlay {
+    background: none !important;
+}
+/*Элемент Режим правки*/
+
+/*Элемент Логин пользователя*/
+body #bx-panel #bx-panel-user {
+    background: none !important;
+}
+body #bx-panel #bx-panel-user-text {
+    background: none !important;
+}
+body #bx-panel #bx-panel-user:hover {
+    background: none !important;
+}
+body #bx-panel #bx-panel-user:hover #bx-panel-user-text {
+    background: none !important;
+}
+/*Элемент Логин пользователя*/
+
+/*Элемент Новые уведомления*/
+body #bx-panel .adm-header-notif-block {
+    background: none !important;
+}
+body #bx-panel .adm-header-notif-icon {
+
+}
+body #bx-panel .adm-header-notif-counter {
+    background: none !important;
+}
+body #bx-panel .adm-header-notif-block:hover {
+    background: none !important;
+}
+body #bx-panel .adm-header-notif-block:hover .adm-header-notif-counter {
+    background: none !important;
+}
+body #bx-panel #bx-panel-tabs .adm-header-notif-block {
+    border: 1px solid transparent !important;
+}
+body #bx-panel #bx-panel-tabs .adm-header-notif-block.adm-header-notif-block-active {
+    background: none !important;
+    border: 1px solid #cbd5d8 !important;
+    border-radius: 4px;
+}
+body #bx-panel #bx-panel-tabs .adm-header-notif-block.adm-header-notif-block-active .adm-header-notif-counter {
+    background: none !important;
+}
+/*Элемент Новые уведомления*/
+
+/*Кнопка Меню*/
+body #bx-panel #bx-panel-menu {
+    background: none !important;
+    border: 1px solid transparent !important;
+}
+body .bx-core-popup-menu-angle {
+    display: none;
+}
+body #bx-panel.bx-panel-folded #bx-panel-top #bx-panel-menu.bx-pressed {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-top #bx-panel-menu.bx-pressed #bx-panel-menu-text {
+    background: none !important;
+}
+body #bx-panel #bx-panel-menu-text {
+    background: none !important;
+}
+body #bx-panel #bx-panel-menu:hover {
+    background: none !important;
+}
+body #bx-panel #bx-panel-menu:hover #bx-panel-menu-text {
+    background: none !important;
+}
+body #bx-panel #bx-panel-top #bx-panel-menu.bx-pressed {
+    background: none !important;
+    border: 1px solid #cbd5d8 !important;
+    border-radius: 4px;
+}
+body #bx-panel #bx-panel-top #bx-panel-menu.bx-pressed #bx-panel-menu-text {
+    background: none !important;
+}
+/*Кнопка Меню*/
+
+/*Горизонтальная панель с кнопками*/
+/*Small buttons*/
+body #bx-panel .bx-panel-small-button-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-small-button-hover .bx-panel-small-button-inner {
+    background: none !important;
+}
+body #bx-panel .bx-panel-small-button-text-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-small-button-text-hover .bx-panel-small-button-inner {
+    background: none !important;
+}
+body #bx-panel .bx-panel-small-button-arrow-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-small-button-arrow-hover .bx-panel-small-button-inner {
+    background: none !important;
+}
+/*Small buttons*/
+/*Stsandart buttons*/
+body #bx-panel .bx-panel-button-icon-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-button-icon-hover .bx-panel-button-inner {
+    background: none !important;
+}
+body #bx-panel .bx-panel-button-text-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-button-text-hover .bx-panel-button-inner {
+    background: none !important;
+}
+/*Stsandart buttons*/
+
+/*Кнопка Ещё, Кнопка Мастер Настройки*/
+body #bx-panel .bx-panel-button-hover {
+    background: none !important;
+}
+body #bx-panel .bx-panel-button-hover .bx-panel-button-inner {
+    background: none !important;
+}
+/*Кнопка Ещё, Кнопка Мастер Настройки*/
+/*Горизонтальная панель с кнопками*/
+
+/*Разделители*/
+body #bx-panel #bx-panel-switcher-gutter-left {
+    display: none !important;
+}
+body #bx-panel #bx-panel-buttons-gutter {
+    display: none !important;
+}
+/*Разделители*/
+
+/*Свёрнутый вид*/
+body #bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-left {
+    display: none !important;
+}
+body #bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-right {
+    display: none !important;
+}
+body #bx-panel #bx-panel-switcher-gutter-right {
+    display: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-top {
+    padding-bottom: 0px !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-top {
+    background: #222425 !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-tabs {
+    background: #222425 !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-top-gutter {
+    display: none !important;
+}
+
+/*Кнопка Меню*/
+body #bx-panel.bx-panel-folded #bx-panel-menu:hover {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-menu:hover #bx-panel-menu-text {
+    background: none !important;
+}
+/*Кнопка Меню*/
+
+/*Кнопка Администрирование*/
+body #bx-panel.bx-panel-folded #bx-panel-admin-tab {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-admin-tab span {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-admin-tab:hover {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-admin-tab:hover span {
+    background: none !important;
+}
+/*Кнопка Администрирование*/
+
+/*Элемент Новые уведомления*/
+body #bx-panel.bx-panel-folded .adm-header-notif-block {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded .adm-header-notif-counter {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded .adm-header-notif-block:hover {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded .adm-header-notif-block:hover .adm-header-notif-counter {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-tabs .adm-header-notif-block.adm-header-notif-block-active {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-tabs .adm-header-notif-block.adm-header-notif-block-active .adm-header-notif-counter {
+    background: none !important;
+}
+/*Элемент Новые уведомления*/
+
+/*Элемент Логин пользователя*/
+body #bx-panel.bx-panel-folded #bx-panel-user {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-user-text {
+    background: none !important;
+}
+body #bx-panel.bx-panel-folded #bx-panel-user:hover {
+    background: none !important;
+}
+body  #bx-panel.bx-panel-folded #bx-panel-user:hover #bx-panel-user-text {
+    background: none !important;
+}
+/*Элемент Логин пользователя*/
+/*Свёрнутый вид*/
+
+body #bx-panel #bx-panel-expander-arrow {
+    display: none !important;
+}
+body #bx-panel #bx-panel-hider-arrow {
+    display: none !important;
+}
+
+/*Hermitage*/
+/*Module gbxtp.atmc*/

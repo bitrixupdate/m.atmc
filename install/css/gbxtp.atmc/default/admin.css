@@ -1,0 +1,282 @@
+/*Module gbxtp.atmc*/
+body .adm-workarea-page {
+    padding-top: 20px;
+}
+
+body .adm-main-menu {
+    width: 102px !important;
+    background-color: #222425 !important;
+    padding-bottom: 20px !important;
+    border-bottom-right-radius: 6px !important;
+}
+
+body .adm-header-bottom {
+    height: 0px !important;
+}
+
+body .adm-header-wrap {
+    height: 38px !important;
+}
+
+body .adm-header-right {
+    height: 38px !important;
+}
+
+body .adm-header {
+    background: #222425 !important;
+}
+
+body .adm-left-side-wrap {
+    background: #e6eef0;
+}
+
+body .adm-header-search-block {
+    background: #e3eced !important;
+    border-color: #222425;
+}
+
+body input[type="text"].adm-header-search {
+    color: #1c1d1f !important;
+}
+
+body .adm-header-search-block:after, .adm-header-search-block:before {
+    background: url("/bitrix/panel/main/images/bx-admin-sprite-small-2.png") no-repeat 7px -125px !important;
+}
+
+/*Кнопка Сайт*/
+body .adm-header-btn-site {
+    background-color: transparent !important;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+body .adm-header-btn-site:hover {
+    background-color: transparent !important;
+    background-image: none;
+}
+/*Кнопка Сайт*/
+
+/*Кнопка Администрирование*/
+body .adm-header-btn-admin {
+    background-image: none !important;
+    background-color: #e6eef0 !important;
+}
+/*Кнопка Администрирование*/
+
+/*Кнопка Новые уведомления*/
+body .adm-header-notif-block {
+    background: none !important;
+    box-shadow: none !important;
+    border: 1px solid transparent;
+}
+body .adm-header-notif-counter {
+    background: none !important;
+}
+body .adm-header-notif-block.adm-header-notif-block-active {
+    border: 1px solid #e6eef0;
+    border-color: #e6eef0 !important;
+}
+/*Кнопка Новые уведомления*/
+
+/*Элемент Логин пользователя*/
+body .adm-header-user-block {
+    background: none !important;
+    box-shadow: none;
+    border: none;
+}
+body .adm-header-user-block:hover {
+    box-shadow: none;
+}
+/*Элемент Логин пользователя*/
+
+/*Элемент выбор языка*/
+body .adm-header-language {
+    background: none !important;
+    box-shadow: none !important;
+    border: 1px solid transparent !important;
+}
+body .adm-header-language.adm-header-language-active {
+    border: 1px solid #e6eef0 !important;
+}
+/*Элемент выбор языка*/
+
+body .adm-resize-block.adm-resize-block-close {
+    left: -10px !important;
+}
+body .adm-left-side.adm-left-side-wrap-close .adm-main-menu {
+    background: #e6eef0 !important;
+}
+
+/*Настройки модуля*/
+.gbxtp_atmc_form input {
+    /*min-width: 100px !important;*/
+}
+/*Настройки модуля*/
+
+/*Главное меню( левая верикальная полоса с кнопками )*/
+body .adm-main-menu-item:hover .adm-main-menu-hover {
+    background-color: transparent;
+    opacity: 0;
+}
+body .adm-main-menu-item-active .adm-main-menu-hover {
+    background: rgba(34,36,37,0.5);
+}
+/*Главное меню( левая верикальная полоса с кнопками )*/
+
+/*Login*/
+body .login-header {
+    background-color: #222425 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+body .login-page-bg {
+    background: #222425 !important;
+}
+
+
+body .login-popup-wrap {
+    padding: inherit;
+    box-shadow: none;
+}
+body .login-popup-wrap .login-popup {
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+body .login-popup-wrap .login-popup-title-description {
+    display: none !important;
+}
+body .login-popup-wrap .login-popup-field-title {
+    display: none !important;
+}
+body .login-popup-wrap .login-popup-title {
+    padding-bottom: 60px;
+    font-size: 32px;
+}
+
+/*Элемент input*/
+body .login-popup-wrap .login-input-wrap {
+    box-shadow: none;
+    border-radius: 4px !important;
+    padding: 4px !important;
+}
+body .login-popup-wrap .login-input {
+    height: 36px;
+    font-size: 20px !important;
+}
+body .login-input-active .login-inp-border {
+    display: none !important;
+}
+/*Элемент input*/
+
+body .login-popup-wrap .adm-designed-checkbox-label {
+
+}
+body .login-popup-wrap .login-popup-link {
+    text-transform: uppercase;
+}
+
+/*Изменение геометрии*/
+body .login-popup-wrap .login-popup-field {
+    padding-left: 120px;
+}
+body .login-popup {
+    width: 640px;
+}
+body .login-popup-wrap .login-popup-checbox-block {
+    padding-left: 120px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+body .login-popup-wrap .login-popup-forget-pas {
+    padding-left: 20px;
+    font-size: 14px;
+}
+body #gbxtp_atmc_loginform_submit {
+    display: inline-block;
+    margin-left: 180px;
+    padding: 10px 20px;
+    background-color: #222425;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+body #change_password_button #gbxtp_atmc_loginform_submit {
+    margin-left: 0px;
+}
+body #gbxtp_atmc_loginform_submit + .login-btn {
+    margin-left: 15px;
+}
+/*Изменение геометрии*/
+
+/*Кнопка входа*/
+body #gbxtp_atmc_loginform_submit:hover {
+    cursor: pointer;
+}
+.login-btn-green {
+    display: none;
+}
+.login-waiter {
+    display: none !important;
+}
+/*Кнопка входа*/
+
+/*Preloader*/
+#gbxtp_atmc_loginform_preloader {
+    display: none;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 115px;
+    top: 253px;
+    z-index: 1;
+}
+#change_password_button #gbxtp_atmc_loginform_preloader {
+    left: 265px;
+    top: 280px;
+}
+#change_password_fields {
+    position: relative;
+    z-index: 2;
+}
+body .login-loading-active #gbxtp_atmc_loginform_preloader {
+    display: inline-block;
+}
+/*Preloader*/
+
+/*Страница восстановления пароля*/
+body .login-popup-wrap-with-text {
+    width: auto;
+}
+body .login-popup-link {
+    font-size: 14px;
+}
+body .login-popup-either {
+    display: none;
+}
+body .login-btn {
+    display: inline-block;
+    padding: 10px 20px !important;
+    height: auto;
+    background: #222425;
+    box-shadow: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    text-shadow: none;
+}
+body .login-btn:hover {
+    background: #222425;
+}
+/*Страница восстановления пароля*/
+
+/*Login*/
+/*Module gbxtp.atmc*/
