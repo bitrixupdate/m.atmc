@@ -6,7 +6,7 @@ $MESS["GBXTP_ATMC_INSTALL_MODULE_DESCRIPTION"]      =  'Allow change color(use D
                                                         change background color for "Control panel" login page';
 
 $MESS["GBXTP_ATMC_INSTALL_PARTNER_NAME"]      = "gbxtp";
-$MESS["GBXTP_ATMC_INSTALL_PARTNER_URI"]       = "https://github.com/gbxtp";
+$MESS["GBXTP_ATMC_INSTALL_PARTNER_URI"]       = "https://github.com/bitrixupdate/m.atmc";
 
 
 $MESS["GBXTP_ATMC_INDEX_DOINSTALL_THROWEXCEPTION"] = "The module cannot be installed. Main module version below 14";

@@ -7,7 +7,7 @@ $MESS["GBXTP_ATMC_INSTALL_MODULE_DESCRIPTION"]      =  'Позволяет вы�
                                                         в "Панель управления"';
 
 $MESS["GBXTP_ATMC_INSTALL_PARTNER_NAME"]      = "gbxtp";
-$MESS["GBXTP_ATMC_INSTALL_PARTNER_URI"]       = "https://github.com/gbxtp";
+$MESS["GBXTP_ATMC_INSTALL_PARTNER_URI"]       = "https://github.com/bitrixupdate/m.atmc";
 
 
 $MESS["GBXTP_ATMC_INDEX_DOINSTALL_THROWEXCEPTION"] = "Модуль не может быть установлен. Версия главного модуля ниже 14";
