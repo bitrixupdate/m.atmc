@@ -1,7 +1,7 @@
 # Панель управления. Менеджер цвета
 
-![b](https://img.shields.io/badge/version-1.0.0-informational)
-![b](https://img.shields.io/badge/size-277kb-informational)
+![b](https://img.shields.io/badge/version-2.0.0-informational)
+![b](https://img.shields.io/badge/size-177kb-informational)
 
 ## Установка
 
