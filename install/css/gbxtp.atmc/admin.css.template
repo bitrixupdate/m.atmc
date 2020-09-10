@@ -4,7 +4,7 @@ padding-top: 20px;
 }
 
 body .adm-main-menu {
-width: 102px !important;
+width: 105px !important;
 background-color: #COLOR_ADMIN_ADMIN_BG !important;
 padding-bottom: 20px !important;
 border-bottom-right-radius: 6px !important;
