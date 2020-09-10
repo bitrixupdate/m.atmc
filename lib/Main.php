@@ -28,12 +28,8 @@ class Main
     const PATH_TO_ADMIN_CSS_CUSTOM   = '/bitrix/css/'. self::MODULE_ID .'/custom/admin.css';
     const PATH_TO_PUBLIC_CSS_CUSTOM  = '/bitrix/css/'. self::MODULE_ID .'/custom/public.css';
 
-    const PATH_TO_ADMIN_JS_CUSTOM     = '/bitrix/js/'. self::MODULE_ID .'/admin.js';
-
-    const PATH_TO_ADMIN_CSS_VENDOR_SPECTRUM = '/bitrix/css/'. self::MODULE_ID .'/vendor/spectrum.css';
-    const PATH_TO_ADMIN_CSS_VENDOR_SPECTRUM_BITRIX = '/bitrix/css/'. self::MODULE_ID .'/vendor/spectrum.bitrix.css';
-    const PATH_TO_ADMIN_JS_VENDOR_SPECTRUM  = '/bitrix/js/'. self::MODULE_ID .'/vendor/spectrum.js';
-    const PATH_TO_ADMIN_JS_VENDOR_SPECTRUM_CALL  = '/bitrix/js/'. self::MODULE_ID .'/vendor/spectrum.call.js';
+    const PATH_TO_ADMIN_JS_LOGIN_CUSTOM     = '/bitrix/js/'. self::MODULE_ID .'/login.js';
+    const PATH_TO_ADMIN_JS_SETTINGS_CUSTOM     = '/bitrix/js/'. self::MODULE_ID .'/settings.js';
 
     private static $request = null;
 
@@ -95,37 +91,22 @@ class Main
 
                 'css' => $pathCssAdmin,
             ],
-            'gbxtp_atmc_admin_js' => [
+            'gbxtp_atmc_admin_js_login' => [
                 'use' => CJSCore::USE_ADMIN,
 
                 'rel' => ['jquery'],
-                'js' => self::PATH_TO_ADMIN_JS_CUSTOM,
+                'js' => self::PATH_TO_ADMIN_JS_LOGIN_CUSTOM,
+            ],
+            'gbxtp_atmc_admin_js_settings' => [
+                'use' => CJSCore::USE_ADMIN,
+
+                'rel' => ['color_picker'],
+                'js' => self::PATH_TO_ADMIN_JS_SETTINGS_CUSTOM,
             ],
         ];
 
         $lvS = [
-            'gbxtp_atmc_admin_css_vendor_spectrum' => [
-                'use' => CJSCore::USE_ADMIN,
 
-                'css' => self::PATH_TO_ADMIN_CSS_VENDOR_SPECTRUM,
-            ],
-            'gbxtp_atmc_admin_css_vendor_spectrum_bitrix' => [
-                'use' => CJSCore::USE_ADMIN,
-
-                'css' => self::PATH_TO_ADMIN_CSS_VENDOR_SPECTRUM_BITRIX,
-            ],
-            'gbxtp_atmc_admin_js_vendor_spectrum' => [
-                'use' => CJSCore::USE_ADMIN,
-
-                'rel' => ['jquery'],
-                'js' => self::PATH_TO_ADMIN_JS_VENDOR_SPECTRUM,
-            ],
-            'gbxtp_atmc_admin_js_vendor_spectrum_call' => [
-                'use' => CJSCore::USE_ADMIN,
-
-                'rel' => ['jquery', 'gbxtp_atmc_admin_js_vendor_spectrum'],
-                'js' => self::PATH_TO_ADMIN_JS_VENDOR_SPECTRUM_CALL,
-            ],
         ];
 
 

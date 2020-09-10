@@ -115,20 +115,6 @@ class gbxtp_atmc extends CModule
             true
         );
 
-        CopyDirFiles(
-            $this->PATH_TO_DIR_INSTALL .'/vendor/bgrins/spectrum/main/css/',
-            Application::getDocumentRoot() .'/bitrix/css',
-            true,
-            true
-        );
-
-        CopyDirFiles(
-            $this->PATH_TO_DIR_INSTALL .'/vendor/bgrins/spectrum/main/js/',
-            Application::getDocumentRoot() .'/bitrix/js',
-            true,
-            true
-        );
-
         return true;
     }
 

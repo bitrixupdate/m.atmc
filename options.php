@@ -29,15 +29,9 @@ $tabs = [
                     Loc::getMessage("GBXTP_ATMC_OPTIONS_TAB_COLOR_1"),
                     "#222425",
                     "text",
-                    'color_picker_spectrum_1',
+                    'color_picker_1',
                     'html' => [
-                        [
-                            'input',
-                            '',
-                            'button',
-                            '...',
-                            'spectrum-bitrix input-button',
-                        ],
+
                     ]
                 ],
 
@@ -47,15 +41,9 @@ $tabs = [
                     Loc::getMessage("GBXTP_ATMC_OPTIONS_TAB_COLOR_2"),
                     "#222425",
                     "text",
-                    'color_picker_spectrum_2',
+                    'color_picker_2',
                     'html' => [
-                        [
-                            'input',
-                            '',
-                            'button',
-                            '...',
-                            'spectrum-bitrix input-button',
-                        ],
+
                     ]
                 ],
         ]
